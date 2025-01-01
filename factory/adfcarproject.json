@@ -1,0 +1,9 @@
+{
+	"name": "adfcarproject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e65951e0-b2db-412e-90d1-f9a6391e6457",
+		"tenantId": "b9c6d33d-d424-4f5e-814e-f79945b26976"
+	}
+}
