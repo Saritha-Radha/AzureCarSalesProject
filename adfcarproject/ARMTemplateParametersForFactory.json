@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfcarproject"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"ls_adls_accountKey": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "carsalesserverus.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "carsales"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "sari"
+		},
+		"ls_HttpServer1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"ls_adls_properties_typeProperties_url": {
+			"value": "https://adlscarproject.dfs.core.windows.net/"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://adlscarproject.dfs.core.windows.net/"
+		}
+	}
+}
