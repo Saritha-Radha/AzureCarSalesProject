@@ -198,7 +198,10 @@
 				"outputs": [
 					{
 						"referenceName": "ds_AzureSqlTable1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"tablename": "source_cars_sales"
+						}
 					}
 				]
 			}
